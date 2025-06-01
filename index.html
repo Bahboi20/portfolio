@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limuel Espino - Full Stack Developer Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="font-sans text-gray-800 bg-gray-50">
+
+    <header class="bg-blue-600 text-white p-4 shadow-md">
+        <nav class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold">Limuel Espino</a>
+            <div class="hidden md:flex space-x-6">
+                <a href="#about" class="hover:text-blue-200">About</a>
+                <a href="#skills" class="hover:text-blue-200">Skills</a>
+                <a href="#projects" class="hover:text-blue-200">Projects</a>
+                <a href="#contact" class="hover:text-blue-200">Contact</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="md:hidden hidden bg-blue-700 text-white p-4">
+            <a href="#about" class="block py-2 hover:bg-blue-600">About</a>
+            <a href="#skills" class="block py-2 hover:bg-blue-600">Skills</a>
+            <a href="#projects" class="block py-2 hover:bg-blue-600">Projects</a>
+            <a href="#contact" class="block py-2 hover:bg-blue-600">Contact</a>
+        </div>
+    </header>
+
+    <main class="container mx-auto py-8 px-4">
+
+        <section id="hero" class="text-center py-16">
+            <h1 class="text-5xl font-extrabold text-blue-800 leading-tight mb-4">
+                Limuel Espino
+            </h1>
+            <p class="text-2xl text-gray-600 mb-8">
+                Full Stack Developer | .NET & Web Specialist
+            </p>
+            <p class="text-lg max-w-2xl mx-auto mb-8">
+                Transforming caffeine into flawless code for over 7 years. Blending technical prowess with business acumen, I deliver robust software solutions that drive efficiency and impact.
+            </p>
+            <a href="#projects" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300">
+                View My Work
+            </a>
+        </section>
+
+        <section id="about" class="py-16 border-t border-gray-200">
+            <h2 class="text-4xl font-bold text-center text-blue-700 mb-10">About Me</h2>
+            <div class="max-w-3xl mx-auto text-lg leading-relaxed">
+                <p class="mb-4">
+                    I'm Limuel Espino, a seasoned Software Developer with 7 years of hands-on experience in designing, developing, and deploying robust applications. My journey began with a Bachelor's in Computer Technology, and I'm currently expanding my horizons by pursuing an MBA, which equips me with a unique blend of technical expertise and strategic business understanding.
+                </p>
+                <p class="mb-4">
+                    My core technical strengths lie in **.NET development (VB.NET, C#)**, complimented by strong front-end skills in **JavaScript, HTML, and CSS**. I'm proficient in database management, including **MS Access, PHP, and SQL**, and have a solid background in computer troubleshooting and data networking.
+                </p>
+                <p class="mb-4">
+                    Beyond coding, my MBA journey has sharpened my abilities in staff management, client satisfaction, financial oversight, and research, allowing me to approach software development with a holistic perspective, ensuring solutions are not just technically sound but also align with business objectives.
+                </p>
+                <p>
+                    I am passionate about creating efficient, user-friendly systems that solve real-world problems and enhance operational workflows.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills" class="py-16 border-t border-gray-200">
+            <h2 class="text-4xl font-bold text-center text-blue-700 mb-10">Skills & Technologies</h2>
+            <div class="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
+                <span class="skill-tag">VB.NET</span>
+                <span class="skill-tag">C#</span>
+                <span class="skill-tag">.NET Framework</span>
+                <span class="skill-tag">SQL</span>
+                <span class="skill-tag">MS Access</span>
+                <span class="skill-tag">PHP</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">HTML5</span>
+                <span class="skill-tag">CSS3</span>
+                <span class="skill-tag">Tailwind CSS</span>
+                <span class="skill-tag">Database Management</span>
+                <span class="skill-tag">Full Stack Development</span>
+                <span class="skill-tag">System Design</span>
+                <span class="skill-tag">Troubleshooting</span>
+                <span class="skill-tag">Data Networking</span>
+                <span class="skill-tag">Financial Management</span>
+                <span class="skill-tag">Staff Management</span>
+                <span class="skill-tag">Client Satisfaction</span>
+                <span class="skill-tag">Research & Analysis</span>
+            </div>
+            <style>
+                .skill-tag {
+                    @apply bg-blue-100 text-blue-800 text-lg font-semibold px-4 py-2 rounded-full shadow-md;
+                }
+            </style>
+        </section>
+
+        <section id="projects" class="py-16 border-t border-gray-200">
+            <h2 class="text-4xl font-bold text-center text-blue-700 mb-10">Professional Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition duration-300">
+                    <h3 class="text-2xl font-bold text-blue-600 mb-3">Aid to Individuals in Crisis Situation Processing System</h3>
+                    <p class="text-gray-700 mb-4">
+                        Developed a comprehensive system to streamline the processing of aid for individuals in crisis, ensuring efficient resource allocation and tracking.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-sm bg-gray-200 text-gray-700 px-3 py-1 rounded-full">VB.NET</span>
+                        <span class="text-sm bg-gray-200 text-gray-700 px-3 py-1 rounded-full">SQL Database</span>
+                        <span class="text-sm bg-gray-200 text-gray-700 px-3 py-1 rounded-full">System Automation</span>
+                    </div>
+                    </div>
+
+                <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition duration-300">
+                    <h3 class="text-2xl font-bold text-blue-600 mb-3">Queueing Systems</h3>
+                    <p class="text-gray-700 mb-4">
+                        Designed and implemented various queueing systems to manage customer flow and improve service efficiency in high-traffic environments.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-sm bg-gray-200 text-gray-700 px-3 py-1 rounded-full">JavaScript</span>
+                        <span class="text-sm bg-gray-200 text-gray-700 px-3 py-1 rounded-full">HTML/CSS</span>
+                        <span class="text-sm bg-gray-200 text-gray-700 px-3 py-1 rounded-full">PHP / Backend Integration</span>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition duration-300">
+                    <h3 class="text-2xl font-bold text-blue-600 mb-3">Supplies Inventory Management Systems</h3>
+                    <p class="text-gray-700 mb-4">
+                        Developed robust inventory solutions to track supplies, manage stock levels, and automate ordering processes, leading to cost savings and reduced wastage.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-sm bg-gray-200 text-gray-700 px-3 py-1 rounded-full">C#</span>
+                        <span class="text-sm bg-gray-200 text-gray-700 px-3 py-1 rounded-full">MS Access / SQL</span>
+                        <span class="text-sm bg-gray-200 text-gray-700 px-3 py-1 rounded-full">Reporting</span>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition duration-300">
+                    <h3 class="text-2xl font-bold text-blue-600 mb-3">Database Automation Tools</h3>
+                    <p class="text-gray-700 mb-4">
+                        Created custom tools to automate routine database tasks, including backups, data cleansing, and report generation, significantly improving data integrity and operational efficiency.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-sm bg-gray-200 text-gray-700 px-3 py-1 rounded-full">VB.NET / C#</span>
+                        <span class="text-sm bg-gray-200 text-gray-700 px-3 py-1 rounded-full">SQL Scripting</span>
+                        <span class="text-sm bg-gray-200 text-gray-700 px-3 py-1 rounded-full">Batch Processing</span>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition duration-300">
+                    <h3 class="text-2xl font-bold text-blue-600 mb-3">Financial Report Generation Tools</h3>
+                    <p class="text-gray-700 mb-4">
+                        Developed applications for automating the generation of complex financial reports, providing timely and accurate insights for decision-making.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-sm bg-gray-200 text-gray-700 px-3 py-1 rounded-full">C# / VB.NET</span>
+                        <span class="text-sm bg-gray-200 text-gray-700 px-3 py-1 rounded-full">Database Integration</span>
+                        <span class="text-sm bg-gray-200 text-gray-700 px-3 py-1 rounded-full">Reporting Services</span>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition duration-300">
+                    <h3 class="text-2xl font-bold text-blue-600 mb-3">Payment Processing System</h3>
+                    <p class="text-gray-700 mb-4">
+                        Built a secure and efficient system to manage various payment transactions, ensuring accuracy and compliance.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="text-sm bg-gray-200 text-gray-700 px-3 py-1 rounded-full">VB.NET / C#</span>
+                        <span class="text-sm bg-gray-200 text-gray-700 px-3 py-1 rounded-full">Database Management</span>
+                        <span class="text-sm bg-gray-200 text-gray-700 px-3 py-1 rounded-full">Security Considerations</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="py-16 border-t border-gray-200 text-center">
+            <h2 class="text-4xl font-bold text-blue-700 mb-8">Get In Touch</h2>
+            <p class="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
+                I'm actively seeking challenging remote Full Stack Developer roles where I can leverage my experience in .NET, web technologies, and business acumen to build impactful solutions.
+            </p>
+            <div class="flex flex-col items-center space-y-4 text-xl">
+                <p>Email: <a href="mailto:boiespino17@gmail.com" class="text-blue-600 hover:underline">boiespino17@gmail.com</a></p>
+                <p>Email: <a href="mailto:lespino20@outlook.com" class="text-blue-600 hover:underline">lespino20@outlook.com</a></p>
+                <p>Phone: <a href="tel:+639760130529" class="text-blue-600 hover:underline">09760130529</a> / <a href="tel:+639186529071" class="text-blue-600 hover:underline">09186529071</a></p>
+                </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-800 text-white text-center p-6 mt-8">
+        <p>&copy; 2025 Limuel Espino. All rights reserved.</p>
+        <p class="text-sm mt-2">Built with HTML, Tailwind CSS, and JavaScript.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            mobileMenuButton.addEventListener('click', function() {
+                mobileMenu.classList.toggle('hidden');
+            });
+
+            // Optional: Hide mobile menu when a link is clicked (for smooth scrolling)
+            mobileMenu.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.add('hidden');
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
